@@ -1,4 +1,4 @@
-Package: tweak-remove-force-upgrade
+Package: tweak-prevent-force-upgrade
 Version: 0.9.0
 Maintainer: Joonas Trussmann joonas@batman.ee
 Description: Prevents accidental force upgrades by connecting to Fly App
