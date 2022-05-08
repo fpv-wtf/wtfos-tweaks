@@ -1,0 +1,3 @@
+#!/system/bin/sh
+setprop dji.prop.enforce_upgrade 0
+rm -f /cache/force_upgrade
