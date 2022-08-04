@@ -1,6 +1,6 @@
 Package: tweak-prevent-force-upgrade
-Version: 0.9.0
+Version: 0.9.1
 Maintainer: Joonas Trussmann joonas@batman.ee
-Description: Prevents accidental force upgrades by connecting to Fly App
-Architecture: armv7-3.2
+Description: Prevents accidental force upgrades on Goggles v2 by connecting to Fly App in DJI FPV Drone mode.
+Architecture: pigeon-glasses-v2
 Depends: dinit
