@@ -1,2 +1,2 @@
 #!/system/bin/sh
-/opt/sbin/dinitctl -u disable tweak-prevent-force-upgrade
+/opt/sbin/dinitctl -u disable tweak-prevent-force-upgrade || true
