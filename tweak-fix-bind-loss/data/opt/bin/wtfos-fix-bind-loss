@@ -1,0 +1,7 @@
+#!/system/bin/sh
+
+if [ "$(unrd product_type)" == "wm150_gls" ] && [ "$(busybox devmem 0x0B52A004 32)" == "0x00000001" ]; then
+    busybox devmem 0x0B52A004 32 $(busybox devmem 0x0B52A000 32)
+    busybox devmem 0x0B52A00C 32 $(busybox devmem 0x0B52A000 32)
+    modem_info.sh reboot
+fi

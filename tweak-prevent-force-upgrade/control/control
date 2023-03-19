@@ -3,4 +3,5 @@ Version: 0.9.3
 Maintainer: Joonas Trussmann joonas@batman.ee
 Description: Prevents accidental force upgrades on Goggles v2 by connecting to Fly App in DJI FPV Drone mode.
 Architecture: pigeon-glasses-v2
+Homepage: https://github.com/fpv-wtf/wtfos-tweaks
 Depends: dinit

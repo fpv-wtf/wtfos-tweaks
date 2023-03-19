@@ -1,0 +1,7 @@
+Package: tweak-fix-bind-loss
+Version: 0.1.0
+Maintainer: Joonas Trussmann joonas@batman.ee
+Description: Fixes binding loss for AU/Vista when switching from FPV/Avata/O3 mode to DIY mode. Does not currently work the other way around. The glass is half full.
+Architecture: pigeon-glasses-v2
+Homepage: https://github.com/fpv-wtf/wtfos-tweaks
+Depends: dinit

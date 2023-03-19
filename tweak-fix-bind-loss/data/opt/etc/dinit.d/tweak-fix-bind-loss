@@ -1,0 +1,2 @@
+type = scripted 
+command = /opt/bin/wtfos-fix-bind-loss
